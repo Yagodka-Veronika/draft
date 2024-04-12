@@ -1,15 +1,15 @@
-package Far;
+package Animals;
 
 import java.time.LocalDate;
 import java.util.List;
 
-public class Cat extends Pet{
-    public Cat(Integer id, String name, LocalDate birthday) {
+public class Dog extends Pet{
+    public Dog(Integer id, String name, LocalDate birthday) {
         super(id, name, birthday);
     }
 
     public String toString() {
-        return "Cat" +
+        return "Dog" +
                 ", name: " + super.getName() +
                 ", birthday: " + super.getBirthday();
     }

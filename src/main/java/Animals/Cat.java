@@ -1,15 +1,15 @@
-package Far;
+package Animals;
 
 import java.time.LocalDate;
 import java.util.List;
 
-public class Hamster extends Pet{
-    public Hamster(Integer id, String name, LocalDate birthday) {
+public class Cat extends Pet{
+    public Cat(Integer id, String name, LocalDate birthday) {
         super(id, name, birthday);
     }
 
     public String toString() {
-        return "Hamster" +
+        return "Cat" +
                 ", name: " + super.getName() +
                 ", birthday: " + super.getBirthday();
     }
@@ -24,5 +24,3 @@ public class Hamster extends Pet{
         return super.getCommands();
     }
 }
-
-

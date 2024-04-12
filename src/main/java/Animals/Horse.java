@@ -1,15 +1,15 @@
-package Far;
+package Animals;
 
 import java.time.LocalDate;
 import java.util.List;
 
-public class Camel extends PackAnimal{
-    public Camel(Integer id, String name, LocalDate birthday) {
+public class Horse extends PackAnimal implements Teachable {
+
+    public Horse(Integer id, String name, LocalDate birthday) {
         super(id, name, birthday);
     }
-
     public String toString() {
-        return "Camel" +
+        return "Horse" +
                 ", name: " + super.getName() +
                 ", birthday: " + super.getBirthday();
     }
